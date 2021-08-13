@@ -1,0 +1,29 @@
+body {
+margin: 0;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  border: groove rgb(100, 100, 100) 2px;
+  margin: 50px auto;
+}
+
+label {
+  margin: 0 0 5px 20px;
+  margin-left: 20px;
+}
+
+input {
+  width: 200px;
+  margin: 0 auto 5px;
+}
+
+#submit {
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(88, 88, 88);
+    color: white;
+}
